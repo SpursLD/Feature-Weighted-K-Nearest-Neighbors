@@ -5,7 +5,7 @@
 1. High-resolution ground truth microstructures for different shape parameters are stored in the `ground_truth` folder. The `down_sampled.m` file can be used to downsample these to generate lower resolutions. 
 2. Microstructures at various resolutions can be processed using the `delect_big_denoise.m` script with different size thresholds.
 3. The `size_topology.m` script computes the geometric and topological structures of the microstructures.
- 4. `tpzuhe.m`: Combines statistical microstructure information into a dataset.
+ 4. `tpzuhe.m`: Combines statistical microstructure information into a excel.
  5. Training datasets with different size thresholds are located in the `training_dataset` folder, while test datasets are in the `test_dataset` folder.
   ## FWKNN
 4. The FWKNN implementation is located in `FWKNN.py`, and `test.py` is used to evaluate the training performance.

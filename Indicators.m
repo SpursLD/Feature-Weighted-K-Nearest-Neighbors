@@ -1,4 +1,6 @@
-
+S_HR = [];
+S_LR = ones(size(S_HR));
+S_pred = [];
 results = evaluate_recovery(S_HR, S_LR, S_pred);
 
 
@@ -15,7 +17,7 @@ if ~isequal(size(S_HR), size(S_pred))
 end
 
 if ~isequal(size(S_HR), size(S_LR))
-    error(The shapes of S_HR and S_LR do not match');
+    error('The shapes of S_HR and S_LR do not match');
 end
 
 [n, m] = size(S_HR);

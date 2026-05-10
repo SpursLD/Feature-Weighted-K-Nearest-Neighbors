@@ -1,4 +1,4 @@
-# Quantifying and predicting information loss in digital microstructure: An integrated experimental, simulation, and machine learning framework
+# FWKNN
 ## Abstract
  This repository contains the complete code for dataset construction, model training, and testing workflows, along with the corresponding raw data (training and test sets) and pre-trained parameter files.
  ## Dataset
